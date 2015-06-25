@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24831" started-at="2015-06-25T09:26:49Z" finished-at="2015-06-25T09:27:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24831" started-at="2015-06-25T09:26:49Z" finished-at="2015-06-25T09:27:14Z">
+      <class name="com.example.tests.CopyOfContactCreationTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.example.tests.CopyOfContactCreationTests@2fee9422]" name="setUp" is-config="true" duration-ms="6210" started-at="2015-06-25T12:26:49Z" finished-at="2015-06-25T12:26:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testContactWithEmptyDataCanBeCreated()[pri:0, instance:com.example.tests.CopyOfContactCreationTests@2fee9422]" name="testContactWithEmptyDataCanBeCreated" duration-ms="6952" started-at="2015-06-25T12:26:56Z" finished-at="2015-06-25T12:27:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactWithEmptyDataCanBeCreated -->
+        <test-method status="PASS" signature="testValidGroupCanBeCreated()[pri:0, instance:com.example.tests.CopyOfContactCreationTests@2fee9422]" name="testValidGroupCanBeCreated" duration-ms="3912" started-at="2015-06-25T12:27:03Z" finished-at="2015-06-25T12:27:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidGroupCanBeCreated -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.example.tests.CopyOfContactCreationTests@2fee9422]" name="tearDown" is-config="true" duration-ms="191" started-at="2015-06-25T12:27:14Z" finished-at="2015-06-25T12:27:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.tests.CopyOfContactCreationTests -->
+      <class name="com.example.tests.ContactCreationTests">
+        <test-method status="PASS" signature="testContactWithEmptyDataCanBeCreated()[pri:0, instance:com.example.tests.ContactCreationTests@f2dec59]" name="testContactWithEmptyDataCanBeCreated" duration-ms="3578" started-at="2015-06-25T12:27:07Z" finished-at="2015-06-25T12:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactWithEmptyDataCanBeCreated -->
+        <test-method status="PASS" signature="testValidGroupCanBeCreated()[pri:0, instance:com.example.tests.ContactCreationTests@f2dec59]" name="testValidGroupCanBeCreated" duration-ms="3974" started-at="2015-06-25T12:27:10Z" finished-at="2015-06-25T12:27:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidGroupCanBeCreated -->
+      </class> <!-- com.example.tests.ContactCreationTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

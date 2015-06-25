@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.example.tests.ContactCreationTests">
+        <methods>
+          <include name="testValidGroupCanBeCreated"/>
+          <include name="testContactWithEmptyDataCanBeCreated"/>
+        </methods>
+      </class> <!-- com.example.tests.ContactCreationTests -->
+      <class name="com.example.tests.CopyOfContactCreationTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.example.tests.CopyOfContactCreationTests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
